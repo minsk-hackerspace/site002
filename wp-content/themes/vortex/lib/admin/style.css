@@ -1,0 +1,177 @@
+/**
+|------------------------
+| =Clear Floated Elements
+|------------------------
+*/
+
+.vortex-clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.vortex-clearfix:before,
+.vortex-clearfix:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.vortex-clearfix:after {
+  clear: both;
+}
+
+.vortex-clearfix {
+  zoom: 1;
+}
+
+/**
+|------------------------
+| =Options Form
+|------------------------
+*/
+
+#vortex-form-wrapper {
+	background-color: #eeeeee;
+	border: 1px solid #e5e5e5;
+	margin-top: 20px;
+}
+
+#vortex-form-header,
+#vortex-form-footer {
+	text-align: right;
+	padding: 20px;	
+}
+
+#vortex-form-header {
+	border-bottom: 1px solid #DFDFDF;
+}
+
+#vortex-form-footer {
+	border-top: 1px solid #DFDFDF;
+}
+
+/**
+|------------------------
+| =Options Sidebar
+|------------------------
+*/
+
+#vortex-sidebar,
+#vortex-main {
+	min-height: 300px;
+}
+
+#vortex-sidebar {
+	width: 200px;
+	float: left;
+}
+
+#vortex-sidebar #vortex-group-menu,
+#vortex-sidebar #vortex-group-menu li {
+	margin: 0;
+}
+
+#vortex-sidebar #vortex-group-menu li.divide {
+	padding: 0px;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+    border-bottom-color: #DFDFDF;
+    border-top-color: #F9F9F9;
+}
+
+#vortex-sidebar #vortex-group-menu li a {
+	display:block;
+	padding: 14px 14px;
+	background: #eeeeee;
+	border-top: solid 1px #F9F9F9;
+	border-right: solid 1px #DFDFDF;
+	border-bottom: solid 1px #DFDFDF;
+	border-left: none;
+	color: #333333;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#vortex-sidebar #vortex-group-menu li a.custom-tab {
+	background: #f6f6f6;
+}
+
+#vortex-sidebar #vortex-group-menu li a img {
+	width: 16px;
+	height: 16px;
+	margin-bottom:-3px;
+}
+
+#vortex-sidebar #vortex-group-menu li a:hover {
+	background:#f9f9f9;
+}
+
+#vortex-sidebar #vortex-group-menu li.active a {
+	background:#ffffff;
+	border-right: none;
+}
+
+/**
+|------------------------
+| =Options Main
+|------------------------
+*/
+
+#vortex-main {
+	background: #FFFFFF;
+	margin-left: 200px;
+	padding: 16px 20px 1px 20px;
+}
+
+.vortex-group-tab {
+	display: none;
+}
+
+.vortex-group-tab h3 {
+	margin: 0 0 18px 0;
+	padding: 0 0 18px 0;
+	border-bottom: 1px solid #DFDFDF;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.vortex-group-tab .vortex-section-desc {
+	font-style: italic;
+	border-bottom: 1px solid #DFDFDF;
+	padding: 0 0 18px 0;
+	margin: 0 0 30px 0;
+}
+
+.vortex-group-tab .vortex-section-desc p.description {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+|------------------------
+| =Options Form Table
+|------------------------
+*/
+
+.vortex-group-tab .form-table {
+	clear: none;
+}
+
+.vortex-group-tab .form-table th {
+	font-weight: bold;
+	padding: 0 0 30px 0;
+}
+
+.vortex-group-tab .form-table td {
+	padding: 0 0 30px 0;
+}
