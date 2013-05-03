@@ -37,13 +37,13 @@ https://groups.google.com/group/hackerspace-minsk
 
 История // ChangeLog
 --------------------
-2012-02-12 - LVEE Winter - "блин, сколько можно хотеть"
-...  [ ] missing important dates, fill please
-2013-04-28 (jekhor) - set up a new wordpress-based site
-2013-05-03 (tektonov) - added README, quick start instructions,
-                        default config for local development
-...
-xxxx-xx-xx (your name) - contribution
+2012-02-12 - LVEE Winter - "блин, сколько можно хотеть"  
+...  [ ] missing important dates, fill please  
+2013-04-28 (jekhor) - set up a new wordpress-based site  
+2013-05-03 (tektonov) - added README, quick start instructions,  
+                        default config for local development  
+...  
+xxxx-xx-xx (your name) - contribution  
 
 If you are reading this file up to this point, you're welcome
 to meet and join us. ;)
