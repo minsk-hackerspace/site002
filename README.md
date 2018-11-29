@@ -1,3 +1,12 @@
+Second version of Minsk Hackerspace website. Archived.
+
+See https://github.com/minsk-hackerspace/hackerspace.by
+for the latest version (which is third in 2018).
+
+Original README.md is below.
+
+---
+
 See below for English text.
 
 Исходники Wordpress, плагины и темы сайта http://www.hackerspace.by/
